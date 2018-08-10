@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>리스트 스타일</title>
+<style>
+	/* 목록모양 만들기 */
+	ol{
+		list-style-type: katakana;
+	}
+	ul{
+		list-style-image:url(images/dog.gif)
+	}
+	/* 배경 색상 만들기 */
+	h3{background-color:skyblue;
+	border-width: 5px;
+	border-style:solid;
+	border-top-color:blue;
+	border-left-color:blue;
+	border-right-color:red;
+	border-bottom-color:gray}
+	
+	h3:active{
+	border-width: 5px;
+	border-style:solid;
+	border-top-color:green;
+	border-left-color:gray;
+	border-right-color:yellow;
+	border-bottom-color:magenta;
+	margin:2px}
+
+	#radius{
+	width:100px;
+	height:100px;
+	background-color:gray;
+	border-radius:200px 0px 200px 0px;
+	}
+	div{
+		float:left;
+	}
+	section{
+		display:block;
+	}
+	
+</style>
+<title>Insert title here</title>
+</head>
+<body>
+	<div>가</div><div>나</div><br />
+	<a href="#">
+	<h3>Full Stack</h3>
+	</a>
+	<ol>
+		<li id="radius">gil</li>
+		<li>Java</li>
+		<li>자료구조</li>
+		<li>알고리즘</li>
+		<li>머신샵</li>
+		<li>backend</li>
+		<li>iOS</li>
+		<li>care</li>
+	</ol>
+	<h3>많이 사용하는 프로그래밍 언</h3>
+	<ul>
+		<li>c&amp;c++</li>
+		<li>java</li>
+		<li>c#</li>
+		<li>python</li>
+		<li>r</li>
+		<li>swift</li>
+		<li>cotlin</li>
+		<li>sql</li>
+		<li>scala</li>
+	
+	</ul>
+</body>
+</html>
